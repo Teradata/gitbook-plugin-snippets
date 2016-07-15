@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-snippets",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Snippet support for Gitbook",
   "main": "index.js",
   "scripts": {
