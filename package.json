@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Snippet support for Gitbook",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Teradata/gitbook-plugin-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/Teradata/gitbook-plugin-snippets/issues"
+  },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --timeout 15000"
   },
