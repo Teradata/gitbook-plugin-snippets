@@ -1,0 +1,37 @@
+{
+  "name": "gitbook-plugin-snippets",
+  "version": "0.1.0",
+  "description": "Snippet support for Gitbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --timeout 15000"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "documentation",
+    "snippets"
+  ],
+  "author": "Jeremy Wilken <gnomation@gnomeontherun.com>",
+  "license": "MIT",
+  "engines": {
+    "gitbook": ">=3"
+  },
+  "gitbook": {
+    "properties": {
+      "file": {
+        "type": "string",
+        "default": "",
+        "description": "Relative path to snippets file to use."
+      }
+    }
+  },
+  "dependencies": {
+    "properties": "^1.2.1",
+    "replace": "^0.3.0"
+  },
+  "devDependencies": {
+    "gitbook-tester": "^1.4.2",
+    "mocha": "^2.5.3"
+  }
+}
